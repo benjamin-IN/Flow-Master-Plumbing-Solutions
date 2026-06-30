@@ -1,0 +1,48 @@
+<div class="container mt-4">
+
+    <h2 class="mb-4">message Details</h2>
+
+    <div class="card">
+
+        <div class="card-body">
+
+            <p><strong>Name:</strong> <span id="customerName"></span></p>
+
+            <p><strong>Phone:</strong> <span id="phone"></span></p>
+
+            <p><strong>Service:</strong> <span id="service"></span></p>
+
+            <p><strong>Preferred Date:</strong> <span id="preferredDate"></span></p>
+
+            <p><strong>Message:</strong></p>
+
+            <p id="message" class="border rounded p-3 bg-light"></p>
+
+            <div class="mb-3">
+
+                <label class="form-label"><strong>Status</strong></label>
+
+                <select id="status" class="form-select">
+
+                    <option>Pending</option>
+                    <option>Confirmed</option>
+                    <option>Completed</option>
+                    <option>Cancelled</option>
+
+                </select>
+
+            </div>
+
+            <button id="saveBtn" class="btn btn-success">
+                Save Changes
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<script type="module" src="assets/js/checkAuth.js"></script>
+<script type="module" src="assets/js/message-details.js"></script>
